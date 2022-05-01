@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fefffc;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.form{
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #28f3c7;
+}
+
+.submit{
+    text-align: center;
+    padding: 10px;
+}
+
+input[type='submit']{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type='submit']:hover{
+    cursor: pointer;
+    color: white;
+    background:rgb(112, 102, 255)
+}
+
+.result{
+    text-align: center;
+}
